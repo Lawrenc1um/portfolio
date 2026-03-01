@@ -3,8 +3,8 @@ import "./globals.css";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Cheng Li | Waterloo CS",
-  description: "Personal portfolio of Cheng Li - University of Waterloo CS Student",
+  title: "Chengru Li | Waterloo CS",
+  description: "Personal portfolio of Chengru Li - University of Waterloo CS Student",
 };
 
 export default function RootLayout({
@@ -50,7 +50,7 @@ export default function RootLayout({
         {/* Footer */}
         <footer className="border-t border-white/10 mt-20 py-8">
           <div className="max-w-6xl mx-auto px-6 text-center text-gray-500 text-sm">
-            <p>© {new Date().getFullYear()} Cheng Li. Built with Next.js</p>
+            <p>© {new Date().getFullYear()} Chengru Li. Built with Next.js</p>
             <p className="mt-2">
               <a
                 href="https://github.com/Lawrenc1um"

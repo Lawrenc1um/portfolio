@@ -8,7 +8,7 @@ export default function Home() {
         <div className="animate-fade-in">
           <p className="text-blue-400 font-medium mb-4">Hello, I&apos;m</p>
           <h1 className="text-6xl font-bold mb-6">
-            <span className="gradient-text">Cheng Li</span>
+            <span className="gradient-text">Chengru Li</span>
           </h1>
           <p className="text-2xl text-gray-300 mb-4">
             University of Waterloo, CS (Co-op)
@@ -68,8 +68,8 @@ export default function Home() {
             <p className="text-gray-500 text-sm">Projects</p>
           </div>
           <div>
-            <p className="text-3xl font-bold gradient-text">3+</p>
-            <p className="text-gray-500 text-sm">Hackathons</p>
+            <p className="text-3xl font-bold gradient-text">3</p>
+            <p className="text-gray-500 text-sm">Hackathons Registered</p>
           </div>
         </div>
       </div>

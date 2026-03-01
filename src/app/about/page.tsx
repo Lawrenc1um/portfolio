@@ -54,11 +54,11 @@ export default function About() {
 
       {/* Interests */}
       <section className="mb-12">
-        <h2 className="text-2xl font-semibold mb-6 text-blue-400">❤️ Interests</h2>
+        <h2 className="text-2xl font-semibold mb-6 text-blue-400">❤️ Hobbies</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           {[
             { emoji: "🎮", title: "Game Development", desc: "Aspiring game company founder" },
-            { emoji: "📷", title: "Photography", desc: "Canon R6 Mark II owner" },
+            { emoji: "📷", title: "Photography", desc: "Canon R6 Mark II" },
             { emoji: "🥏", title: "Ultimate Frisbee", desc: "Ex-captain of Beijing Infinites" },
             { emoji: "🎿", title: "Snowboarding", desc: "Love hitting the slopes" },
           ].map((interest) => (
